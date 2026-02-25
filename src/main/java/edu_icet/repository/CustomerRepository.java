@@ -9,8 +9,6 @@ import java.util.List;
 
 public class CustomerRepository {
 
-
-
         public String getName() {
             return "Nimal";
         }
