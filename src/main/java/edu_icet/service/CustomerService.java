@@ -1,9 +1,20 @@
 package edu_icet.service;
 
+import edu_icet.model.Customer;
 import edu_icet.repository.CustomerRepository;
 
-public interface CustomerService {
-    public String getName();
+import java.util.List;
 
-    public String getAge();
+public interface CustomerService {
+    public List<String> getName();
+
+    public List<String> getId();
+
+    public List<String> getAddress();
+
+    public List<String> getCity();
+
+    public List<String> getProvince();
+
+    List<Customer> getAllCustomer();
 }
